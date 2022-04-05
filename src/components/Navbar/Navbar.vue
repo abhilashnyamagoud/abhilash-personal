@@ -1,0 +1,44 @@
+<template>
+    <div>
+        <nav class="navbar navbar-light bg-secondary fixed-top">
+  <div class="container-fluid">
+    <router-link to="/" class="navbar-brand text-light" >Abhilash </router-link>
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Get In Touch</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <router-link class="nav-link" to="/"><i class="bi bi-house"></i> Home </router-link>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/abhilash.nyamagoud" target="_blank" > <i class="bi bi-facebook"></i> Facebook </a>
+          </li>
+           <li class="nav-item">
+               
+              <a class="nav-link" href="https://www.instagram.com/strange_rider_96/" target="_blank" > <i class="bi bi-instagram"></i> Instagram </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    </div>
+</template>
+
+<script>
+    export default {
+        
+    }
+</script>
+
+<style lang="scss" scoped>
+
+</style>
